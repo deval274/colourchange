@@ -91,6 +91,13 @@ function App() {
             >
               Orange
             </button>
+            <button
+              onClick={()=> setColor("lime")}
+              className="outline-none px-4 py-1 rounded-full text-white shadow-2xl"
+              style={{ backgroundColor: "lime" }}
+            >
+              Lime
+            </button>
 
           </div>
         
